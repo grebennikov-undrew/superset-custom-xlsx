@@ -15,6 +15,7 @@ echo $(pwd)
 git clone https://github.com/apache/superset.git $superset_folder
 git clone git@github.com:grebennikov-undrew/knn_coffee.git
 git checkout 2.0.0
+echo "##### Pull comleted #####"
 
 # Replacing folders
 cd ./superset
@@ -23,5 +24,8 @@ rm -rf ./superset-frontend
 cp -r "${archive_folder}/superset" ./superset
 cp -r "${archive_folder}/superset-frontend" ./superset-frontend
 cp "${archive_folder}/docker-compose-prod.yml" ./docker-compose-prod.yml
+echo "##### Replacing comleted #####"
+echo "##### Superset repository is ${pwd} #####"
+echo "##### Exec comand: 'docker-compose -f docker-compose-prod.yml up' to start superset #####"
 
 
