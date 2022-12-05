@@ -1,0 +1,57 @@
+dashboard_title: Custom welcome page
+description: null
+css: ''
+slug: welcome_page
+uuid: 6e957545-5447-49fc-b0fb-36bb241db426
+position:
+  DASHBOARD_VERSION_KEY: v2
+  GRID_ID:
+    children:
+    - ROW-epuNsrVUEE
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: Custom welcome page
+    type: HEADER
+  MARKDOWN-QiM_sVSdUI:
+    children: []
+    id: MARKDOWN-QiM_sVSdUI
+    meta:
+      height: 50
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-epuNsrVUEE
+    type: MARKDOWN
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  ROW-epuNsrVUEE:
+    children:
+    - MARKDOWN-QiM_sVSdUI
+    id: ROW-epuNsrVUEE
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+metadata:
+  show_native_filters: false
+  color_scheme: ''
+  refresh_frequency: 0
+  expanded_slices: {}
+  label_colors: {}
+  timed_refresh_immune_slices: []
+  default_filters: '{}'
+  chart_configuration: {}
+  shared_label_colors: {}
+  color_scheme_domain: []
+version: 1.0.0

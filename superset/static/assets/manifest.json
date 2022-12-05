@@ -1,0 +1,73 @@
+{
+  "app": "superset",
+  "entrypoints": {
+    "preamble": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.bb3e81dc.entry.js",
+        "/static/assets/preamble.bdfe9a12.entry.js"
+      ]
+    },
+    "theme": {
+      "css": [],
+      "js": [
+        "/static/assets/theme.bb52ed8f.entry.js"
+      ]
+    },
+    "menu": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.bb3e81dc.entry.js",
+        "/static/assets/vendors-node_modules_ctrl_tinycolor_dist_module_index_js-node_modules_ace-builds_src-noconfli-39f02b.a8d03c8e.entry.js",
+        "/static/assets/vendors-node_modules_react-icons_all-files_fa_FaAlignCenter_js-node_modules_react-icons_all-f-3ab7c8.4bac077b.entry.js",
+        "/static/assets/src_reports_actions_reports_js-src_components_UiConfigContext_index_tsx.cee5529b.entry.js",
+        "/static/assets/menu.f5a4a114.entry.js"
+      ]
+    },
+    "spa": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.bb3e81dc.entry.js",
+        "/static/assets/thumbnail.b61a7910.entry.js",
+        "/static/assets/vendors-node_modules_ctrl_tinycolor_dist_module_index_js-node_modules_ace-builds_src-noconfli-39f02b.a8d03c8e.entry.js",
+        "/static/assets/vendors-node_modules_react-icons_all-files_fa_FaAlignCenter_js-node_modules_react-icons_all-f-3ab7c8.4bac077b.entry.js",
+        "/static/assets/vendors-node_modules_ace-builds_src-min-noconflict_mode-css_js-node_modules_ace-builds_src-mi-770124.c77dc1fd.entry.js",
+        "/static/assets/src_reports_actions_reports_js-src_components_UiConfigContext_index_tsx.cee5529b.entry.js",
+        "/static/assets/src_hooks_apiResources_index_ts-src_setup_setupPlugins_ts.0eb53172.entry.js",
+        "/static/assets/spa.1e9ecef3.entry.js"
+      ]
+    },
+    "embedded": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.bb3e81dc.entry.js",
+        "/static/assets/vendors-node_modules_ctrl_tinycolor_dist_module_index_js-node_modules_ace-builds_src-noconfli-39f02b.a8d03c8e.entry.js",
+        "/static/assets/vendors-node_modules_react-icons_all-files_fa_FaAlignCenter_js-node_modules_react-icons_all-f-3ab7c8.4bac077b.entry.js",
+        "/static/assets/src_reports_actions_reports_js-src_components_UiConfigContext_index_tsx.cee5529b.entry.js",
+        "/static/assets/embedded.973c776a.entry.js"
+      ]
+    },
+    "sqllab": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.bb3e81dc.entry.js",
+        "/static/assets/vendors-node_modules_ctrl_tinycolor_dist_module_index_js-node_modules_ace-builds_src-noconfli-39f02b.a8d03c8e.entry.js",
+        "/static/assets/sqllab.e9c9b8b8.entry.js"
+      ]
+    },
+    "profile": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.bb3e81dc.entry.js",
+        "/static/assets/profile.f3d6cec2.entry.js"
+      ]
+    },
+    "showSavedQuery": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.bb3e81dc.entry.js",
+        "/static/assets/showSavedQuery.29e08827.entry.js"
+      ]
+    }
+  }
+}
