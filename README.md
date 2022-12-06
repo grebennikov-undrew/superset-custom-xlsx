@@ -2,7 +2,7 @@
 superset-custom-xlsx
 
 ## How to start:
-Run install.sh to load files
+Run install.sh to load files. Type path to target Superset folder
 ```
 bash install.sh /some/folder/to/superset
 ```
