@@ -2,9 +2,15 @@
 superset-custom-xlsx
 
 ## How to start:
-1. Extract superset-custom-xlsx to folder
-2. Run init_superset.sh to load files
-<init_superset.sh>
-3. Go to superset folder
-4. Start docker
-<docker-compose -f docker-compose-prod.yml up>
+Run install.sh to load files
+```
+bash install.sh /some/folder/to/superset
+```
+Go to Superset folder
+```
+cd /some/folder/to/superset
+```
+Start Superset
+```
+docker-compose -f docker-compose-prod.yml up
+```
